@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    tools:context=".Activity.SettingsActivity">
+
+    <ImageView
+        android:id="@+id/backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow" />
+
+    <!-- Profile Photo ImageView -->
+    <ImageView
+        android:id="@+id/profilePhotoImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/profile_photo"
+        android:layout_below="@+id/backBtn"
+        android:src="@drawable/ic_default_profile_photo"
+        android:scaleType="centerCrop"
+        android:background="@drawable/profile_photo_border"/>
+
+    <!-- Change Photo Button -->
+    <ImageButton
+        android:id="@+id/changePhotoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/round_button"
+        android:contentDescription="@string/add_user_image"
+        android:layout_below="@+id/profilePhotoImageView"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/photo_camera" />
+
+    <!-- Username EditText -->
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:padding="8dp"
+        android:layout_below="@id/changePhotoButton"
+        android:hint="@string/change_your_username"
+        android:textColor="@color/blue_grey"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/profile_photo_border"/>
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernameEditText"
+        android:backgroundTint="@color/blue_grey"
+        android:text="@string/save_changes" />
+
+    <TextView
+        android:id="@+id/userEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toEndOf="@+id/backBtn"
+        android:textColor="@color/blue_grey"
+        android:text="TextView" />
+
+</RelativeLayout>

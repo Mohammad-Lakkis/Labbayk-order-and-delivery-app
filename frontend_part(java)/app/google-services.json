@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "350915822349",
+    "firebase_url": "https://labbayk-5059c-default-rtdb.firebaseio.com",
+    "project_id": "labbayk-5059c",
+    "storage_bucket": "labbayk-5059c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350915822349:android:f003de4176a71dd08ca644",
+        "android_client_info": {
+          "package_name": "com.example.labbayk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEvVRAb10Tcq52y8cNjy73gCNFm-cC2QE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

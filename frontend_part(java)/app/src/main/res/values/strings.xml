@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Labbayk</string>
+    <string name="welcome">Welcome to Labbayk</string>
+    <string name="brief">For a delightful, easy, and enjoyable food ordering experience.</string>
+    <string name="log">Login</string>
+    <string name="sign">Sign up</string>
+    <string name="passForget">Forget Password?</string>
+    <string name="password">Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="title">title</string>
+    <string name="time">time</string>
+    <string name="description">Indulge in comfort with the Chilli Cheese Dog, a hearty delight boasting a beef hot dog smothered in rich chili, melted cheddar cheese, and diced onions. Indulge in comfort with the Chilli Cheese Dog, a hearty delight boasting a beef hot dog smothered in rich chili, melted cheddar cheese, and diced onions.</string>
+    <string name="dollar">-$</string>
+    <string name="profile_photo">Profile Photo</string>
+    <string name="change_photo">Change Photo</string>
+    <string name="username">Username</string>
+    <string name="save">Save</string>
+    <string name="add_user_image">Add User Image</string>
+    <string name="change_your_username">Change your username</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="title_activity_restaurant">RestaurantActivity</string>
+    <string name="google_maps_key">AIzaSyCvI-V3PinMqWFp6d0iLhd4FMic9CSCq5g</string>
+</resources>
