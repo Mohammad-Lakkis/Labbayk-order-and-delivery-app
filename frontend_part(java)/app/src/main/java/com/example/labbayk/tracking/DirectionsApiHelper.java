@@ -8,7 +8,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class DirectionsApiHelper {
 
     private static final String BASE_URL = "https://maps.googleapis.com/maps/api/";
-    private static final String API_KEY = "AIzaSyCvI-V3PinMqWFp6d0iLhd4FMic9CSCq5g";
+    private static final String API_KEY  = "";
 
     private final DirectionsService directionsService;
 
