@@ -18,6 +18,5 @@
     <string name="add_user_image">Add User Image</string>
     <string name="change_your_username">Change your username</string>
     <string name="save_changes">Save Changes</string>
-    <string name="title_activity_restaurant">RestaurantActivity</string>
-    <string name="google_maps_key">AIzaSyCvI-V3PinMqWFp6d0iLhd4FMic9CSCq5g</string>
+    
 </resources>
